@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @layer utilities {
+    .span-product {
+    text-align: center;
+    display: block;
+   }
+ } /* 
+ In your CSS file */
+ @layer components {
+   .my-background {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url('../../build/img/carrr.jpg');
+   }
+
+    }
